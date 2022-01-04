@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="Colorlib Templates" />
+    <meta name="author" content="Colorlib" />
+    <meta name="keywords" content="Colorlib Templates" />
+
+    <title>THE LNM INSTITUTE OF INFORMATION TECHNOLOGY</title>
+
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all" />
+    <link
+      href="vendor/mdi-font/css/material-design-iconic-font.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="vendor/font-awesome-4.7/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link
+      href="vendor/datepicker/daterangepicker.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <link href="css/main.css" rel="stylesheet" media="all" />
+  </head>
+
+  <body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+      <!-- Navbar-->
+      <header class="header">
+        <!-- <div><img style="width: 100%;" src="headingPNG.png"</div> -->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+          <div class="container">
+            <img src="LNMIIT.png" width="160" height="80" />
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold"
+              >THE LNM INSTITUTE OF INFORMATION TECHNOLOGY, JAIPUR</a
+            >
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler navbar-toggler-right"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <div id="navbarSupportedContent" class="collapse navbar-collapse">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a
+                    href="EmployeeList.html"
+                    class="nav-link text-uppercase font-weight-bold active"
+                    >Employee List <span class="sr-only">(current)</span></a
+                  >
+                </li>
+
+                <li class="nav-item active">
+                  <a
+                    href="ComplaintsReportALL.html"
+                    class="nav-link text-uppercase font-weight-bold"
+                    >Complaints Report <span class="sr-only">(current)</span></a
+                  >
+                </li>
+                <li class="nav-item">
+                  <a id="complaintLogout" href="#" class="nav-link text-uppercase font-weight-bold"
+                    >Logout</a
+                  >
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+      <br />
+      <br />
+      <br />
+      <br />
+      <div class="wrapper wrapper--w960">
+        <div class="card card-4">
+          <div class="card-body">
+            <div style="display: flex; margin-bottom: 2%">
+              <h2 class="title">Complaints Report</h2>
+            </div>
+
+            <!-- lists -->
+            <div class="input-group">
+              <input
+                id="filter"
+                type="text"
+                class="form-control"
+                placeholder="Search..."
+              />
+            </div>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th>Complaint ID</th>
+                  <th>Complainer ID</th>
+                  <th>Complaint type</th>
+                  <th>Complaint Date</th>
+                  <th>Complaint Details</th>
+                  <th>Location</th>
+                  <th>Assigned to</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="allComplaints" class="searchable">
+                
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="ComplaintsReport.js"></script>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/filterLists.js"></script>
+    <script src="js/header_custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+
+    <script src="js/global.js"></script>
+  </body>
+</html>
