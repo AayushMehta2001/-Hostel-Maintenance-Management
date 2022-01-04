@@ -1,0 +1,51 @@
+[{
+	"type": "Air conditioner repair (BH-4 only)",
+	"abbreviation" : "ACR"
+},
+ {
+	"type" : "Air duct related repair",
+	"abbreviation" : "ADR"
+ },
+ {
+	"type" : "Tube light repair",
+	"abbreviation" : "TLR"
+ },
+ {
+	"type" : "Study lamp repair",
+	"abbreviation" : "SLR"
+ },
+ {
+	"type" : "Bulletin Board repair",
+	"abbreviation" : "BBR"
+ },
+ {
+	"type" : "Table repair",
+	"abbreviation" : "TR"
+ },
+ {
+	"type" : "Bed repair",
+	"abbreviation" : "BR"
+ },
+ {
+	"type" : "Chair repair",
+	"abbreviation" : "CR"
+ },
+ {
+	"type" : "Cupboard related repair",
+	"abbreviation" : "CRR"
+ },
+ {
+	"type" : "Hardware repair (Handle-lock, Door Latch, Door stopper etc.)",
+	"abbreviation" : "HR"
+ },
+ {
+	"type" : "Ethernet repair",
+	"abbreviation" : "ER"
+ },
+ {
+	"type" : "Other",
+	"abbreviation" : "OR"
+ }
+
+]
+ 

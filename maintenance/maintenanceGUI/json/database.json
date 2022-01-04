@@ -1,0 +1,27 @@
+{
+    "Students": [
+        {
+            "name" : "Python", "email" : "19ucs300@lnmiit.ac.in", "rollno" : "19ucs300", "phoneNumber" : "1234567890", "Hostel" : "BH-5", "roomNo" : "F-001", "branch": "CSE"        
+        },
+        {
+            "name" : "Java", "email" : "19ucs301@lnmiit.ac.in", "rollno" : "19ucs301", "phoneNumber" : "1234567891", "Hostel" : "BH-5", "roomNo" : "F-002", "branch": "CSE"        
+        },
+        {
+            "name" : "Cpp", "email" : "19ucs302@lnmiit.ac.in", "rollno" : "19ucs302", "phoneNumber" : "1234567892", "Hostel" : "BH-5", "roomNo" : "F-003", "branch": "CSE"        
+        },
+        {
+            "name" : "Rust", "email" : "19ucs303@lnmiit.ac.in", "rollno" : "19ucs303", "phoneNumber" : "1234567893", "Hostel" : "BH-5", "roomNo" : "F-004", "branch": "CSE"        
+        },
+        {
+            "name" : "C", "email" : "19ucs304@lnmiit.ac.in", "rollno" : "19ucs304", "phoneNumber" : "1234567894", "Hostel" : "BH-5", "roomNo" : "F-005", "branch": "CSE"        
+        }
+    ],
+    "Warder/Caretaker": [
+        {
+            "name" : "Admin1", "email" : "admin300@lnmiit.ac.in", "rollno" : "admin300", "phoneNumber" : "1234567895", "Hostel" : "BH-5"
+        },
+        {
+            "name" : "Admin2", "email" : "admin301@lnmiit.ac.in", "rollno" : "admin301", "phoneNumber" : "1234567896", "Hostel" : "BH-5"
+        }
+    ]
+}
