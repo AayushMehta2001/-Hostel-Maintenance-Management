@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="all" />
+    <link rel="stylesheet" href="../css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
+    <link
+      href="vendor/mdi-font/css/material-design-iconic-font.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+    <link
+      href="vendor/font-awesome-4.7/css/font-awesome.min.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i"
+      rel="stylesheet"
+    />
+
+    <link href="vendor/select2/select2.min.css" rel="stylesheet" media="all" />
+    <link
+      href="vendor/datepicker/daterangepicker.css"
+      rel="stylesheet"
+      media="all"
+    />
+
+    <link href="css/main.css" rel="stylesheet" media="all" />
+</head>
+<body>
+    <div class="page-wrapper bg-gra-02 p-t-130 p-b-100 font-poppins">
+         <!-- Navbar-->
+      <header class="header">
+        <!-- <div><img style="width: 100%;" src="headingPNG.png"</div> -->
+        <nav class="navbar navbar-expand-lg fixed-top py-3">
+          <div class="container">
+            <img src="LNMIIT.png" width="160" height="80" />
+            <a href="#" class="navbar-brand text-uppercase font-weight-bold"
+              >THE LNM INSTITUTE OF INFORMATION TECHNOLOGY, JAIPUR</a
+            >
+            <button
+              type="button"
+              data-toggle="collapse"
+              data-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+              class="navbar-toggler navbar-toggler-right"
+            >
+              <i class="fa fa-bars"></i>
+            </button>
+
+            
+          </div>
+        </nav>
+      </header>
+      <br/><br/><br/><br/>
+        <div class="wrapper wrapper--w960">
+            <div class="card card-4">
+                <div class="card-body">
+                    <div style="display: flex;margin-bottom:2%;">
+                        <h2 class="title">Login</h2>
+                        <img style="margin-left: auto;"src="../LNMIIT.png" alt="LNM" width="150"> 
+                    </div>
+                    <form id="loginForm">
+                        <div class="col col-space centercol">
+                            <div class="col-2_">
+                                <div class="input-group">
+                                    <label class="label">Username</label>
+                                    <input id="email" class="input--style-4" type="text" name="username">
+                                </div>
+                            </div>
+                            <div class="col-2_">
+                                <div class="input-group">
+                                    <label class="label">Password</label>
+                                    <input id="password" class="input--style-4" type="password" name="password">
+                                </div>
+                            </div>
+                            <div class="fullLinecol">
+                                <div class="input-group">
+                                    <label class="label">Role</label>
+                                    <div class="p-t-10">
+                                        <label class="radio-container m-r-45">Supervisor
+                                            <input id="radio1" type="radio" checked="checked" name="role" value="Supervisor">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container m-r-45">Maintainence Staff
+                                            <input id="radio2" type="radio" name="role" value="Maintainence Staff">
+                                            <span class="checkmark"></span>
+                                        </label>
+                                        <label class="radio-container m-r-45">Caretaker
+                                          <input id="radio3" type="radio" name="role" value="Caretaker">
+                                          <span class="checkmark"></span>
+                                      </label>
+                                      <label class="radio-container m-r-45">Student
+                                        <input id="radio4" type="radio" name="role" value="Student">
+                                        <span class="checkmark"></span>
+                                    </label>
+                                    </div>
+                                </div>
+                            <div class="p-t-15">
+                                <button id="loginBtn" class="btn btn--radius-2 btn--blue" type="submit">Login</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>        
+    </div>
+
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="js/filterLists.js"></script>
+    <script src="js/header_custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+
+    <script src="vendor/select2/select2.min.js"></script>
+    <script src="vendor/datepicker/moment.min.js"></script>
+    <script src="vendor/datepicker/daterangepicker.js"></script>
+    <script src="login.js"></script>
+    <script src="js/global.js"></script>
+</body>
+</html>

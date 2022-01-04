@@ -1,0 +1,35 @@
+login - sahil   
+     Supervisor: -  nitish
+		 employee list 
+		 Complaints list - searching/filtering through domain or complaint_id or employee_id
+		 
+   
+    Caretaker- aryan
+        	-register complaint -> complaint history of him under register complaint
+		-complaint list - searching through domain or complaint_id of students
+		
+
+    Employee/Maintanance staff - 
+       		-Assigned Complaints - change status
+		
+
+    STUDENT
+         -register complaint -> complaint history of him under register complaint
+
+
+Login ->supervisor-> EmployeeList.html
+      ->Caretaker -> caretaker_complaint_register.html
+      ->Employee->   EmployeeTasksList.html 
+      ->Student -> student_complaint_register.html 
+
+    
+[Mail to worker]
+
+Registration database {Student} - 
+Login database {Student/caretaker}  - 
+Worker database {Employee} - 
+Complaint database {Complaint}  - 
+Inventory database{inventory}
+Complaint Type list { Dropdown Menu}
+
+
